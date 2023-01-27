@@ -24,7 +24,188 @@
 
 
 \title{Sprawozdanie - spadek swobodny}
+\author{Jakub Swato\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{polski}
+\usepackage[polish]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{csvsimple}
+\usepackage{pgfplots}
+
+\title{Sprawozdanie - spadek swobodny}
 \author{Jakub Swatowski}
+\date{Grudzień 2022}
+
+\begin{document}
+
+\maketitle
+
+\section{Wprowadzenie teoretyczne}
+Spadek swobodny to ruch odbywający się wyłącznie pod wpływem ciężaru, bez oporów ośrodka. Jeżeli spadek ma miejsce z małej wysokości w pobliżu powierzchni Ziemi i dotyczy ciała o stosunkowo dużej gęstości i aerodynamicznym kształcie (np. kuli), wówczas ruch takiego ciała można z dobrym przybliżeniem traktować jak ruch jednostajnie przyspieszony z przyspieszeniem ziemskim g bez prędkości początkowej.
+\begin{equation}
+   h(t) = h_0 - \frac{gt^2}{2}
+   \label{rownanie 1}
+\end{equation}
+Równanie (\ref{rownanie 1}) przedstawia zależność wysokości od czasu.
+
+\section{Opis eksperymentów}
+\begin{figure}[htb]
+    \includegraphics[scale = 0.45]{rys0010.jpg}
+    \centering
+    \caption{Spadek swobodny}
+    \label{rysunek 1}
+\end{figure}
+\begin{flushleft}
+Jak widać na Rysunku \ref{rysunek 1}, ciało zostało opuszczone z wysokości h z prędkością v$_0$ = 0.
+\end{flushleft}
+
+\section{Wynik pomiarów}
+Rezultaty przeprowadzonych pomiarow sa zawarte w tabeli \ref{tabela 1}.
+\begin{longtable}{|l|l|l|}
+\hline \multicolumn{1}{|c|}{\textbf{Lp.}} & \multicolumn{1}{c|}{\textbf{t[s]}} & \multicolumn{1}{c|}{\textbf{ŝ[m]}} \\ \hline 
+\endfirsthead
+
+\hline \multicolumn{1}{|c|}{\textbf{Lp.}} & \multicolumn{1}{c|}{\textbf{t[s]}} & \multicolumn{1}{c|}{\textbf{ŝ[m]}} \\ \hline 
+\endhead
+
+\hline
+\endfoot
+\endlastfoot
+        1 & 0,10 & -0,10 \\ \hline
+        2 & 0,20 & 0,05 \\ \hline
+        3 & 0,30 & 0,54 \\ \hline
+        4 & 0,40 & 0,76 \\ \hline
+        5 & 0,50 & 1,00 \\ \hline
+        6 & 0,60 & 1,72 \\ \hline
+        7 & 0,70 & 2,55 \\ \hline
+        8 & 0,80 & 3,13 \\ \hline
+        9 & 0,90 & 4,10 \\ \hline
+        10 & 1,00 & 4,98 \\ \hline
+        11 & 1,10 & 6,00 \\ \hline
+        12 & 1,20 & 7,03 \\ \hline
+        13 & 1,30 & 8,10 \\ \hline
+        14 & 1,40 & 9,64 \\ \hline
+        15 & 1,50 & 11,05 \\ \hline
+        16 & 1,60 & 12,60 \\ \hline
+        17 & 1,70 & 14,33 \\ \hline
+        18 & 1,80 & 16,07 \\ \hline
+        19 & 1,90 & 17,89 \\ \hline
+        20 & 2,00 & 19,66 \\ \hline
+        21 & 2,10 & 21,52 \\ \hline
+        22 & 2,20 & 23,83 \\ \hline
+        23 & 2,30 & 25,84 \\ \hline
+        24 & 2,40 & 28,20 \\ \hline
+        25 & 2,50 & 30,83 \\ \hline
+        26 & 2,60 & 33,12 \\ \hline
+        27 & 2,70 & 35,71 \\ \hline
+        28 & 2,80 & 38,17 \\ \hline
+        29 & 2,90 & 41,14 \\ \hline
+        30 & 3,00 & 44,06 \\ \hline
+        31 & 3,10 & 46,84 \\ \hline
+        32 & 3,20 & 50,25 \\ \hline
+        33 & 3,30 & 53,53 \\ \hline
+        34 & 3,40 & 56,77 \\ \hline
+        35 & 3,50 & 60,01 \\ \hline
+        36 & 3,60 & 63,55 \\ \hline
+        37 & 3,70 & 67,10 \\ \hline
+        38 & 3,80 & 70,72 \\ \hline
+        39 & 3,90 & 74,72 \\ \hline
+        40 & 4,00 & 78,48 \\ \hline
+        41 & 4,10 & 82,59 \\ \hline
+        42 & 4,20 & 86,39 \\ \hline
+        43 & 4,30 & 90,38 \\ \hline
+        44 & 4,40 & 94,60 \\ \hline
+        45 & 4,50 & 99,33 \\ \hline
+        46 & 4,60 & 103,71 \\ \hline
+        47 & 4,70 & 108,28 \\ \hline
+        48 & 4,80 & 112,82 \\ \hline
+        49 & 4,90 & 117,53 \\ \hline
+        50 & 5,00 & 122,58 \\ \hline
+        51 & 5,10 & 127,51 \\ \hline
+        52 & 5,20 & 132,58 \\ \hline
+        53 & 5,30 & 137,60 \\ \hline
+        54 & 5,40 & 142,90 \\ \hline
+        55 & 5,50 & 148,14 \\ \hline
+        56 & 5,60 & 153,63 \\ \hline
+        57 & 5,70 & 159,25 \\ \hline
+        58 & 5,80 & 164,77 \\ \hline
+        59 & 5,90 & 170,48 \\ \hline
+        60 & 6,00 & 176,29 \\ \hline
+        61 & 6,10 & 182,49 \\ \hline
+        62 & 6,20 & 188,32 \\ \hline
+        63 & 6,30 & 194,50 \\ \hline
+        64 & 6,40 & 200,75 \\ \hline
+        65 & 6,50 & 207,18 \\ \hline
+        66 & 6,60 & 213,45 \\ \hline
+        67 & 6,70 & 219,92 \\ \hline
+        68 & 6,80 & 226,48 \\ \hline
+        69 & 6,90 & 233,16 \\ \hline
+        70 & 7,00 & 240,06 \\ \hline
+        71 & 7,10 & 246,87 \\ \hline
+        72 & 7,20 & 254,08 \\ \hline
+        73 & 7,30 & 261,14 \\ \hline
+        74 & 7,40 & 268,19 \\ \hline
+        75 & 7,50 & 275,38 \\ \hline
+        76 & 7,60 & 283,18 \\ \hline
+        77 & 7,70 & 290,66 \\ \hline
+        78 & 7,80 & 298,06 \\ \hline
+        79 & 7,90 & 305,86 \\ \hline
+        80 & 8,00 & 313,60 \\ \hline
+        81 & 8,10 & 321,56 \\ \hline
+        82 & 8,20 & 329,52 \\ \hline
+        83 & 8,30 & 337,60 \\ \hline
+        84 & 8,40 & 345,75 \\ \hline
+        85 & 8,50 & 354,00 \\ \hline
+        86 & 8,60 & 362,37 \\ \hline
+        87 & 8,70 & 370,78 \\ \hline
+        88 & 8,80 & 379,57 \\ \hline
+        89 & 8,90 & 388,15 \\ \hline
+        90 & 9,00 & 396,82 \\ \hline
+        91 & 9,10 & 405,79 \\ \hline
+        92 & 9,20 & 414,62 \\ \hline
+        93 & 9,30 & 424,02 \\ \hline
+        94 & 9,40 & 433,00 \\ \hline
+        95 & 9,50 & 442,39 \\ \hline
+        96 & 9,60 & 451,58 \\ \hline
+        97 & 9,70 & 460,93 \\ \hline
+        98 & 9,80 & 470,52 \\ \hline
+        99 & 9,90 & 480,49 \\ \hline
+        100 & 10,00 & 489,91 \\ \hline
+    \caption{Wyniki pomiarow}
+    \label{tabela 1}
+\end{longtable}
+\begin{tikzpicture}
+\begin{axis}
+[
+    title = {Spadek swobodny},
+    xlabel = {t[s]},
+    ylabel = {s[m]},
+    xmin = 0, xmax = 10,
+    ymin = 0, ymax = 600,
+    ymajorgrids = true,
+    axis lines = left,
+    grid style = dashed,
+    domain = 0:10,
+]
+\addplot[
+    color = red,
+    only marks,
+    mark = square,
+    mark size=0.5pt]
+    table[meta=t]
+    {excelcsvjs.csv};
+\addplot [ 
+    color=black,
+    ultra thick,
+]
+{4.9*x^2 };
+\end{axis}
+\end{tikzpicture}
+\section{Wnioski}
+\end{document}
+wski}
 \date{December 2022}
 
 \begin{document}
